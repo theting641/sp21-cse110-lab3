@@ -1,8 +1,132 @@
 <!DOCTYPE html>
-<html lang=”en”>
-    <head>
-    </head>
-    <body>
-        hello
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Journal Entries</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div>My Journal</div>
+        <nav>
+            <ul>
+              <li><a href="#Day 1">Day 1</a></li>
+              <li><a href="#Day 2">Day 2</a></li>
+              <li><a href="#Day 3">Day 3</a></li>
+              <li><a href="#Miscellaneous">Miscellaneous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section> <h1 id="Day 1">Day 1: Chill</h1>
+            <h2>Thursday 4/8/2021</h2>
+            <img
+                src=https://upload.wikimedia.org/wikipedia/commons/7/70/Clayton_Kershaw_on_July_23%2C_2015_%282%29.jpg
+                alt="Kershaw"
+                width="250"
+            />
+        <h3>Highlights</h3>
+            <ul>
+                <li> Tutored one of my students today for the APCS exam </li>
+                <li> Caught up on missed lectures and work </li>
+                <li> Started a new anime: Is it wrong to try to pick up girls in a Dungeon? </li>
+            </ul>
+        <h3>Lowlights</h3>
+            <ul>
+                <li> Lakers lost to the Miami Heat. No Anthony Davis or Lebron James </li>
+                <li> No Dodgers game for me to watch today </li>
+            </ul>
+        </section>
+<hr />
+    <section> <h1 id="Day 2">Day 2: Old Friends</h1>
+        <h2>Friday 4/9/2021</h2>
+        My song of the day (You were beautiful by Day6). 
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+          </audio>
+        <p>
+            Great day as I got to see some old friends I have not seen in a while. To ensure
+            <strong> COVID safety</strong>, we made sure to get tested before hanging out 
+            together. We all ate some great food together and watched LCK (Korean professional League
+            of Legends) which started at 1am. We are all <i>basically</i> nocturnal. One of my friends
+            is a fellow kpop listener so it was always nice to catch up with him.
+        </p>
+        <p>
+            Dodgers play the <b>Washington Nationals</b> today. This is a very important game because
+            two years ago the heavily favorited Dodgers lost to the National in the NLDS in five games.
+            The Nationals would go on to win <em>the World Series</em> so it would be a nice to get a 
+            little bit of revenge (even if we won the World Series last year).
+        </p>
+    </section>
+<hr />
+    <section> <h1 id="Day 3">Day 3: A Birthday</h1>
+        <h2>Saturday 4/10/2021</h2>
+        <p>
+            Listened to Wendy's full album for the first time. She is one of the member's of <a href="https://www.youtube.com/watch?v=TD0MXPqQ7VA">Red Velvet</a>, 
+            a popular Kpop group. This is her first solo album. <br>
+            <details>
+                <summary>Red Velvet</summary>
+                <p>Red Velvet is a South Korean girl group formed by SM entertainment. Debuted in 2014, they originally had four members:
+                    Irene, Seulgi, Wendy and Joy. In 2015, they added a fifth member Yeri. They're most famous songs include: Dumb Dumb,
+                    Red Flavor, Bad Boy, and Psycho. They have been on an unofficial hiatus since December of 2019.
+                </p>
+            </details>
+             <br>
+            <b>Overall Opinions:</b> It was a very good album and Wendy is an amazing vocalist. Unfortunately,
+            the majority of the songs were ballads which really is not the type of music that I like.
+        </p>
+        
+        <h5> Track Listing </h5>
+        <ol>
+            <li> When This Rain Stops </li>
+            <li> Like Water </li>
+            <li> Why Can't You Love me? </li>
+            <li> The Road </li>
+            <li> Best Friend (With Seulgi) </li>
+        </ol>
+        <p>Also it is <strong>my friend's birthday today.</strong> I hope he has a happy 21st! Stay safe bud.</p>
+    </section>
+      </main>
+</body>
+<hr />
+    <footer>
+      <h6 id="Miscellaneous">Miscellaneous</h6>
+        <fieldset>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <input type="text" placeholder="Enter Favorite Song" /> <br><br>
+            <input type="checkbox" id="highschool" name="college" value="High School">
+            <label for="highschool"> I am a High School Student</label><br>
+            <input type="checkbox" id="college" name="college" value="College">
+            <label for="college"> I am a College Student</label><br>
+            <input type="checkbox" id="boomer" name="boomer" value="Boomer">
+            <label for="boomer"> I am a boomer</label><br>
+            <p>Pinapples on pizza?:</p>
+            <input type="radio" id="pineapples" name="pizza" value="yes">
+            <label for="pineapples">Yes</label><br>
+            <input type="radio" id="no pineapples" name="pizza" value="no">
+            <label for="no pineapples">No</label><br><br>
+            <form>
+                <label for="w3review">Tell me more about yourself! </label>
+                <textarea id="info" name="info" rows="3" cols="75">
+                </textarea>
+                  <br><br>
+            </form>
+            <form>
+                <label for="activities">What is your go to activity:</label>
+                <input list="activities" name="activity" id="activity">
+                <datalist id="activities">
+                  <option value="Take a walk">
+                  <option value="Netflix">
+                  <option value="Youtube">
+                  <option value="Take a nap">
+                </datalist>
+            </form>
+            <br>
+            <button>Enter</button>
+           </fieldset>
+        </form>
+      <br />
+    </footer>
+  </body>
 </html>
