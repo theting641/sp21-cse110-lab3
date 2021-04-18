@@ -4,7 +4,7 @@ body {
     color: sandybrown;
   }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 100px) {
     body {
         color: black;
         background-color: dodgerblue;
