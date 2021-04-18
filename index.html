@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" href="mystyle.css">
+    <link rel = "stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+    <meta charset="UTF-8">
     <style>
         a:hover {
             color: red;
@@ -8,9 +11,10 @@
         a:active {
             color: blue
         }
+        h1 {
+            font-family: "Dancing Script", Times;
+        }
     </style>
-    <link rel = "stylesheet" href="mystyle.css">
-    <meta charset="UTF-8">
     <title>Journal Entries</title>
     <link rel="icon" href="favicon.ico">
 </head>
@@ -34,6 +38,7 @@
                 alt="Kershaw"
                 width="250"
             />
+        <div class= "flex-container"> 
         <h3>Highlights</h3>
             <ul>
                 <li> Tutored one of my students today for the APCS exam </li>
@@ -45,6 +50,12 @@
                 <li> Lakers lost to the Miami Heat. No Anthony Davis or Lebron James </li>
                 <li> No Dodgers game for me to watch today </li>
             </ul>
+        <h3>Other</h3>
+            <ul style="flex-wrap: nowrap;">
+                <li> Started fantasy baseball </li>
+                <li> Got an onboarding email for my Amazon internship </li>
+            </ul>
+        </div>
         </section>
 <hr />
     <section> <h1 id="Day2">Day 2: Old Friends</h1>
@@ -99,7 +110,7 @@
     </section>
       </main>
 <hr />
-    <footer>
+    <footer class = "grid-container">
       <h6 id="Miscellaneous">Miscellaneous</h6>
         <fieldset>
             <label for="date">Date:</label>
