@@ -1,0 +1,20 @@
+body {
+    background-color: #555; 
+  }
+  
+  h1 {
+    color: rgb(88, 6, 78);
+    font-size: 40px;
+  }
+
+  h2 {
+    color: orangered; 
+    font-size: 25pt;
+  }
+
+  h3 {
+    color: hsl(65, 100%, 10%, 0.6);
+    font-size: 1pc;
+
+  }
+  
