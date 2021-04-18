@@ -1,4 +1,5 @@
 body {
+    display: block;
     background-color: #555; 
     color: sandybrown;
   }
@@ -22,11 +23,12 @@ body {
   }
 
   ol {
+    height: 100px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 500px;
+    min-width: none;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -36,20 +38,58 @@ body {
   }
 
   ul {
+    position: sticky;
     margin: 5px 5px 5px 5px;
-    width: 500px;
+    height: 100px;
+    max-width: 500px;
     padding: 10px 10px 10px 25px;
     border: 5px inset black; 
   }
 
 
   summary {
+    display: inline;
     margin: auto;
-    width: 500px;
+    width: 200;
     padding: 10px 10px 10px 25px;
-    border: 5px inset red; 
+    border: 5px inset darkred; 
+    color: black
   }
-  p {
-      font-size: 3vmin;
+
+  details summary{
+    position: relative;
+    font-size: 3vmin;
+    background-color: lightcoral;
   }
   
+  details > p {
+      color: cornflowerblue
+  }
+
+  ol ~ p {
+      text-decoration: overline;
+  }
+
+  h2 + p {
+      text-align: center;
+  }
+
+  #Day1 {
+      color: black;
+  }
+
+  * {
+    position: none;
+  }
+
+  [href] {
+      color: goldenrod
+  }
+  
+  .date {
+      text-align: left;
+  }
+
+  label.date {
+      color: black
+  }
