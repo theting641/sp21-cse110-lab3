@@ -7,4 +7,6 @@ assignees: theting641
 
 ---
 
-# The custom issue template
+## The custom issue template
+
+**What is the issue?**
